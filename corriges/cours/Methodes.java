@@ -33,9 +33,9 @@ public class Methodes {
     public void factoriel (BigInteger n) {
         BigInteger f, one = f = new BigInteger("1");
 
-        // Si n > 1, on boucle et on decremente n à chaque fois
+        // Si i > 1, on boucle et on decremente i à chaque fois
         for (BigInteger i = n; i.compareTo(one) > 0; i = i.subtract(one)) {
-            // Multiplication de f par n
+            // Multiplication de f par i
             f = f.multiply(i);
         }
 
