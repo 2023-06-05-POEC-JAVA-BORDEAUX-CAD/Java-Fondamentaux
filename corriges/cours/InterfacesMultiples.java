@@ -42,7 +42,7 @@ class RadioReveil implements IRadio, IReveil {
     // Methode avec choix de la methode default a utilisee
     @Override
     public void start() {
-        if (typeReveil) {
+        if (this.typeReveil) {
             IRadio.super.start();
         }
         else {
